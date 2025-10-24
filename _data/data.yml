@@ -1,0 +1,324 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Hung Tran
+  tagline: Senior Site Reliability Engineer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: hungtran177@gmail.com
+  phone: +84 902 563626
+  timezone: Asia/Ho_Chi_Minh
+  citizenship:
+  website: https://hungtran84.github.io/resume
+  linkedin: hung-tran-ba6b0a89
+  xing:
+  github: hungtran84
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  languages:
+    title: Languages
+    info:
+    - idiom: Vietnamese
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+  interests:
+    title: Interests
+    info:
+    - item: Site Reliability Engineering
+      link:
+
+    - item: Cloud Infrastructure
+      link:
+
+    - item: DevOps & Automation
+      link:
+
+career-profile:
+  title: Career Profile
+  summary: |
+    Senior Site Reliability Engineer with 15+ years of experience in system administration, 
+    DevOps, and cloud infrastructure. Specialized in building and maintaining highly scalable, 
+    secure, and resilient systems. Expert in solving complex problems around scalability, 
+    security, deployability, and maintainability. Passionate about automation, infrastructure 
+    as code, and mentoring engineering teams to deliver robust solutions.
+
+education:
+  title: Education
+  info:
+  - degree: BSc in Telecommunications Engineering
+    university: Hanoi University of Science and Technology
+    time: 2002 - 2007
+    details: |
+      Completed Bachelor's degree in Telecommunications Engineering, building a strong foundation 
+      in networking, telecommunications systems, and engineering principles that have supported 
+      a successful career in IT infrastructure and site reliability engineering.
+
+experiences:
+  title: Experience
+  info:
+  - role: Senior Site Reliability Engineer
+    time: April 2020 - Present
+    company: Axon, Ho Chi Minh City, Vietnam
+    details: |
+      As a Senior Site Reliability Engineer, I'm working on solving hard problems in a large-scale environment:
+      
+        - **Scalability**: Managing 20+ petabytes of video information storage with automated performance monitoring and scaling solutions
+        - **Information Security**: Partnering with security teams to deliver high security standards, ensuring compliance with industry standards and government regulations globally
+        - **Maintainability**: Implementing strategies using modern technologies such as time-series databases, searchable log metrics, and cross-call tracing
+        - **Deployability**: Building zero-downtime continuous deployment platforms for complex environments across the globe
+        - **Engagement**: Consulting with engineering teams to design flexible, resilient, and operationally efficient services
+        - **Mentorship**: Mentoring team members to learn, grow, and maintain high standards
+      
+      **Technologies**: AWS, Azure, Kubernetes, Terraform, Ansible, Python, Bash, MongoDB, MySQL, Nginx, Nagios, GitOps, DevSecOps
+
+  - role: Senior System Administrator (Part-time)
+    time: March 2017 - June 2023
+    company: International Lottery & Totalizator Systems, Inc, Vietnam
+    details: |
+      Provided senior-level system administration services for lottery and totalizator systems.
+      
+        - Managed cloud infrastructure and networking systems
+        - Ensured high availability and reliability of critical systems
+        - Implemented automation and monitoring solutions
+      
+      **Technologies**: Linux, Bash, Cloud Infrastructure, Networking
+
+  - role: DevOps Engineer
+    time: December 2018 - April 2020
+    company: Wizeline, Ho Chi Minh City, Vietnam
+    details: |
+      Responsible for server infrastructure and DevOps practices:
+      
+        - Managed and automated the application lifecycle: build, test, stage, and deploy
+        - Encouraged and implemented best practices across the organization
+        - Developed and implemented tools to improve application delivery
+        - Collaborated with engineering teams on architectural decisions
+        - Identified, solved, and prevented performance issues at IP Stack, Application, and OS levels
+      
+      **Technologies**: AWS, GCP, Kubernetes, Terraform, Ansible, Python, MySQL, Nginx, Git, GitOps
+
+  - role: Senior DevOps Engineer
+    time: February 2018 - December 2018
+    company: ELCA Informatique SA / ELCA Informatik AG, Vietnam
+    details: |
+      Responsible for tools and processes enabling development teams to build and deploy highly scalable solutions:
+      
+        - Developed and maintained automation scripts for environment management
+        - Automated system deployment to scale infrastructure
+        - Collaborated with development, testing, deployment, and infrastructure teams
+        - Improved speed, efficiency, and scalability of all systems
+      
+      **Technologies**: AWS, Kubernetes, Terraform, Ansible, Puppet, Python, MongoDB, MySQL, Nagios
+
+  - role: Senior System Administrator
+    time: March 2015 - March 2017
+    company: TeamWork Corporate, Vietnam
+    details: |
+      Managed customer IT infrastructure and operations:
+      
+        - Performed daily checks of customer IT infrastructure (servers, applications, databases, backups, monitoring)
+        - Troubleshot and resolved incidents and problems
+        - Handled customer changes and requests
+      
+      **Technologies**: Linux, Bash, VMware, Database Administration, Infrastructure Automation
+
+  - role: NOC Leader
+    time: November 2010 - November 2014
+    company: Swiss Post Solutions Vietnam Ltd.
+    details: |
+      Led the Network Operations Center team:
+      
+        - Managed IT operations and incident response
+        - Led and mentored team members
+        - Ensured 24/7 service availability
+      
+      **Technologies**: Linux, Bash, IT Operations, Networking, Team Management
+
+  - role: System Engineer
+    time: July 2007 - November 2010
+    company: FPT Information System
+    details: |
+      Provided system engineering services:
+      
+        - Managed IT operations and infrastructure
+        - Maintained Linux systems and networks
+        - Provided technical support and troubleshooting
+      
+      **Technologies**: Linux, IT Operations, Networking
+
+certifications:
+  title: Certifications
+  list:
+  - name: ScyllaDB Essentials – Overview of ScyllaDB and NoSQL Basics
+    start: 2025
+    end:
+    organization: ScyllaDB
+    credentialid:
+    credentialurl:
+    credentialname:
+    details: |
+      Current certification in ScyllaDB and NoSQL database fundamentals.
+
+  - name: Kong Gateway Operations
+    start: 2023
+    end:
+    organization: Kong Inc.
+    credentialid:
+    credentialurl:
+    credentialname:
+    details: |
+      Certification in Kong Gateway operations and REST APIs.
+
+  - name: Kong Gateway Foundations
+    start: 2023
+    end:
+    organization: Kong Inc.
+    credentialid:
+    credentialurl:
+    credentialname:
+    details: |
+      Foundational certification in Kong Gateway and REST APIs.
+
+  - name: Microsoft Certified - Azure Data Fundamentals
+    start: 2021
+    end:
+    organization: Microsoft
+    credentialid:
+    credentialurl:
+    credentialname:
+    details: |
+      Current Microsoft Azure Data Fundamentals certification.
+
+  - name: VMware Certified Professional 6 – Data Center Virtualization
+    start: 2017
+    end:
+    organization: VMware
+    credentialid:
+    credentialurl:
+    credentialname:
+    details: |
+      Current VMware VCP6-DCV certification.
+
+  - name: Microsoft Certified - Azure Solutions Architect Expert
+    start: 2020
+    end: 2024
+    organization: Microsoft
+    credentialid:
+    credentialurl:
+    credentialname:
+    details: |
+      Azure Solutions Architect Expert certification covering T-SQL, Kubernetes, REST APIs, and Microsoft Azure.
+
+  - name: HashiCorp Certified - Terraform Associate (002)
+    start: 2022
+    end: 2024
+    organization: HashiCorp
+    credentialid:
+    credentialurl:
+    credentialname:
+    details: |
+      Terraform and Infrastructure as Code certification.
+
+  - name: CKS - Certified Kubernetes Security Specialist
+    start: 2021
+    end: 2023
+    organization: The Linux Foundation
+    credentialid: LF-0wjogck01a
+    credentialurl:
+    credentialname:
+    details: |
+      Kubernetes security specialist certification.
+
+  - name: CKA - Certified Kubernetes Administrator
+    start: 2020
+    end: 2023
+    organization: The Linux Foundation
+    credentialid:
+    credentialurl:
+    credentialname:
+    details: |
+      Certified Kubernetes Administrator.
+
+  - name: CKAD - Certified Kubernetes Application Developer
+    start: 2020
+    end: 2023
+    organization: The Linux Foundation
+    credentialid:
+    credentialurl:
+    credentialname:
+    details: |
+      Certified Kubernetes Application Developer.
+
+projects:
+  title: Key Achievements
+  intro: >
+    Major infrastructure and reliability projects delivered throughout my career.
+  assignments:
+  - title: Petabyte-Scale Storage Infrastructure
+    link: "#"
+    tagline: "Architected and implemented automated scaling solutions for 20+ PB video storage system at Axon."
+
+  - title: Zero-Downtime Deployment Platform
+    link: "#"
+    tagline: "Built continuous deployment platform enabling global deployments with zero downtime."
+
+  - title: Multi-Cloud Infrastructure
+    link: "#"
+    tagline: "Designed and managed infrastructure across AWS, Azure, and GCP platforms."
+
+  - title: Security Compliance Implementation
+    link: "#"
+    tagline: "Implemented security standards and compliance measures across global infrastructure."
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+  - name: Kubernetes & Containerization
+    level: 95%
+
+  - name: Cloud Platforms (AWS, Azure, GCP)
+    level: 90%
+
+  - name: Terraform & Infrastructure as Code
+    level: 95%
+
+  - name: Python & Bash Scripting
+    level: 90%
+
+  - name: Linux System Administration
+    level: 98%
+
+  - name: CI/CD & GitOps
+    level: 90%
+
+  - name: Monitoring & Observability
+    level: 85%
+
+  - name: Database Administration (MySQL, MongoDB)
+    level: 80%
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,272 +1,35 @@
+#Update all the sections by editing the data.yml file inside _data folder.
+
 # Site Settings
-title: Hung Tran Resume
+title: Hung Tran - Resume
 url: 'https://hungtran84.github.io'
+
+#change it according to your repository name
 baseurl: '/resume'
+
 description: Senior Site Reliability Engineer Resume
-repository: hungtran84/resume
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic teal oceanstale
+chrome_mobile_color: #1976d2 #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-# Sidebar Settings
-sidebar:
-  name: Hung Tran
-  tagline: Senior Site Reliability Engineer
-  avatar: profile.png  # Place a 100x100 picture inside /assets/images/ folder
-  email: hungtran177@gmail.com
-  phone: +84 902 563626
-  website: hungtran84.github.io/resume
-  linkedin: hung-tran-ba6b0a89
-  github: hungtran84
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  twitter:
-  stack-overflow: # Number/Username
-  codewars:
-  goodreads: # Number-Username
+# Tracker
+analytics:
 
-  # Languages
-  languages:
-    - idiom: Vietnamese
-      level: Native
-    
-    - idiom: English
-      level: Professional
-
-  # Interests
-  interests:
-    - item: Site Reliability Engineering
-      link:
-    
-    - item: Cloud Infrastructure
-      link:
-    
-    - item: DevOps & Automation
-      link:
-
-# Career Profile
-career-profile:
-  title: Career Profile
-  summary: |
-    Senior Site Reliability Engineer with 15+ years of experience in system administration, 
-    DevOps, and cloud infrastructure. Specialized in building and maintaining highly scalable, 
-    secure, and resilient systems. Expert in solving complex problems around scalability, 
-    security, deployability, and maintainability. Passionate about automation, infrastructure 
-    as code, and mentoring engineering teams to deliver robust solutions.
-
-# Education
-education:
-  - degree: BSc in Telecommunications Engineering
-    university: Hanoi University of Science and Technology
-    time: 2002 - 2007
-    details: |
-      Completed Bachelor's degree in Telecommunications Engineering, building a strong foundation 
-      in networking, telecommunications systems, and engineering principles that have supported 
-      a successful career in IT infrastructure and site reliability engineering.
-
-# Experiences
-experiences:
-  - role: Senior Site Reliability Engineer
-    time: April 2020 - Present
-    company: Axon, Ho Chi Minh City, Vietnam
-    details: |
-      As a Senior Site Reliability Engineer, I'm working on solving hard problems in a large-scale environment:
-      
-      - **Scalability**: Managing 20+ petabytes of video information storage with automated performance monitoring and scaling solutions
-      - **Information Security**: Partnering with security teams to deliver high security standards, ensuring compliance with industry standards and government regulations globally
-      - **Maintainability**: Implementing strategies using modern technologies such as time-series databases, searchable log metrics, and cross-call tracing
-      - **Deployability**: Building zero-downtime continuous deployment platforms for complex environments across the globe
-      - **Engagement**: Consulting with engineering teams to design flexible, resilient, and operationally efficient services
-      - **Mentorship**: Mentoring team members to learn, grow, and maintain high standards
-
-  - role: Senior System Administrator (Part-time)
-    time: March 2017 - June 2023
-    company: International Lottery & Totalizator Systems, Inc, Vietnam
-    details: |
-      Provided senior-level system administration services for lottery and totalizator systems.
-      
-      - Managed cloud infrastructure and networking systems
-      - Ensured high availability and reliability of critical systems
-      - Implemented automation and monitoring solutions
-
-  - role: DevOps Engineer
-    time: December 2018 - April 2020
-    company: Wizeline, Ho Chi Minh City, Vietnam
-    details: |
-      Responsible for server infrastructure and DevOps practices:
-      
-      - Managed and automated the application lifecycle: build, test, stage, and deploy
-      - Encouraged and implemented best practices across the organization
-      - Developed and implemented tools to improve application delivery
-      - Collaborated with engineering teams on architectural decisions
-      - Identified, solved, and prevented performance issues at IP Stack, Application, and OS levels
-
-  - role: Senior DevOps Engineer
-    time: February 2018 - December 2018
-    company: ELCA Informatique SA / ELCA Informatik AG, Vietnam
-    details: |
-      Responsible for tools and processes enabling development teams to build and deploy highly scalable solutions:
-      
-      - Developed and maintained automation scripts for environment management
-      - Automated system deployment to scale infrastructure
-      - Collaborated with development, testing, deployment, and infrastructure teams
-      - Improved speed, efficiency, and scalability of all systems
-
-  - role: Senior System Administrator
-    time: March 2015 - March 2017
-    company: TeamWork Corporate, Vietnam
-    details: |
-      Managed customer IT infrastructure and operations:
-      
-      - Performed daily checks of customer IT infrastructure (servers, applications, databases, backups, monitoring)
-      - Troubleshot and resolved incidents and problems
-      - Handled customer changes and requests
-
-  - role: NOC Leader
-    time: November 2010 - November 2014
-    company: Swiss Post Solutions Vietnam Ltd.
-    details: |
-      Led the Network Operations Center team:
-      
-      - Managed IT operations and incident response
-      - Led and mentored team members
-      - Ensured 24/7 service availability
-
-  - role: System Engineer
-    time: July 2007 - November 2010
-    company: FPT Information System
-    details: |
-      Provided system engineering services:
-      
-      - Managed IT operations and infrastructure
-      - Maintained Linux systems and networks
-      - Provided technical support and troubleshooting
-
-# Certifications
-certifications:
-  title: Certifications
-  list:
-    - name: "ScyllaDB Essentials – NoSQL Basics"
-      organization: ScyllaDB
-      time: Feb 2025
-      active: true
-    
-    - name: "Kong Gateway Operations"
-      organization: Kong Inc.
-      time: Mar 2023
-      active: true
-    
-    - name: "Kong Gateway Foundations"
-      organization: Kong Inc.
-      time: Mar 2023
-      active: true
-    
-    - name: "Azure Data Fundamentals"
-      organization: Microsoft
-      time: Jan 2021
-      active: true
-    
-    - name: "VMware Certified Professional 6 – Data Center Virtualization"
-      organization: VMware
-      time: Jan 2017
-      active: true
-    
-    - name: "Azure Solutions Architect Expert"
-      organization: Microsoft
-      time: Nov 2020 - Nov 2024
-      active: false
-    
-    - name: "HashiCorp Certified: Terraform Associate"
-      organization: HashiCorp
-      time: Oct 2022 - Sep 2024
-      active: false
-    
-    - name: "CKS: Certified Kubernetes Security Specialist"
-      organization: The Linux Foundation
-      time: Dec 2021 - Dec 2023
-      active: false
-    
-    - name: "CKA: Certified Kubernetes Administrator"
-      organization: The Linux Foundation
-      time: Sep 2020 - Sep 2023
-      active: false
-    
-    - name: "CKAD: Certified Kubernetes Application Developer"
-      organization: The Linux Foundation
-      time: Apr 2020 - Apr 2023
-      active: false
-
-# Projects (Optional - you can add key projects)
-projects:
-  title: Key Achievements
-  intro: >
-    Major infrastructure and reliability projects delivered
-  
-  assignments:
-    - title: Petabyte-Scale Storage Infrastructure
-      tagline: "Architected and implemented automated scaling solutions for 20+ PB video storage system at Axon"
-    
-    - title: Zero-Downtime Deployment Platform
-      tagline: "Built continuous deployment platform enabling global deployments with zero downtime"
-    
-    - title: Multi-Cloud Infrastructure
-      tagline: "Designed and managed infrastructure across AWS, Azure, and GCP platforms"
-
-# Skills
-skills:
-  title: Skills &amp; Proficiency
-  
-  toolset:
-    - name: Kubernetes & Containerization
-      level: 95%
-    
-    - name: AWS & Azure & GCP
-      level: 90%
-    
-    - name: Terraform & Infrastructure as Code
-      level: 95%
-    
-    - name: Python & Bash Scripting
-      level: 90%
-    
-    - name: Linux System Administration
-      level: 98%
-    
-    - name: CI/CD & GitOps
-      level: 90%
-    
-    - name: Monitoring & Observability
-      level: 85%
-    
-    - name: Database Administration
-      level: 80%
-
-# Footer
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
-
-# Dark Mode (true/false/never)
-darkmode: false
-
-# Build settings
-remote_theme: sharu725/online-cv
-
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-plugins:
- - jekyll-seo-tag
- - jekyll-remote-theme
+# Build settings
+compress-site: yes
 
-exclude: [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  "_config.yml.backup"
-]
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
