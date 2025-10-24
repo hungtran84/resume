@@ -1,43 +1,41 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: hungts/resume
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Hung Tran
+title: Site Reliability Engineer
+email: hungtran177@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +84 902 563626
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: 
+# github_username:  
+# stackoverflow_username: "00000001"
+# dribbble_username: 
+# facebook_username: 
+# flickr_username: 
+# instagram_username: 
+linkedin_username: hung-tran-ba6b0a89
+# xing_username: 
+# pinterest_username: 
+# youtube_username: 
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,66 +48,233 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Senior Site Reliability Engineer with **15+ years of experience** in system administration, DevOps, and cloud infrastructure.
+  
+  Specialized in building and maintaining highly scalable, secure, and resilient systems. Expert in solving complex problems 
+  around scalability, security, deployability, and maintainability. Passionate about automation, infrastructure as code, 
+  and mentoring engineering teams to deliver robust solutions.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Axon
+        sub_title: Senior Site Reliability Engineer
+        caption: April 2020 - Present · 5 yrs 7 mos
+        link: https://www.axon.com
         quote: >
-          Short description of the company (optional)
+          Full-time · Ho Chi Minh City, Vietnam
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          As a Senior Site Reliability Engineer, I'm working on solving hard problems in a large-scale environment:
+          
+          - **Scalability** - Managing 20+ petabytes of video information storage with automated performance monitoring and scaling solutions
+          - **Information Security** - Partnering with security teams to deliver high security standards, ensuring compliance with industry standards and government regulations globally
+          - **Maintainability** - Implementing strategies using modern technologies such as time-series databases, searchable log metrics, and cross-call tracing
+          - **Deployability** - Building zero-downtime continuous deployment platforms for complex environments across the globe
+          - **Engagement** - Consulting with engineering teams to design flexible, resilient, and operationally efficient services
+          - **Mentorship** - Mentoring team members to learn, grow, and maintain high standards
+          
+          **Key Technologies:** AWS, Azure, Kubernetes, Terraform, Ansible, Python, Bash, MongoDB, MySQL, Nginx, Nagios, GitOps, DevSecOps
+      
+      - layout: right
+        title: International Lottery & Totalizator Systems, Inc
+        sub_title: Senior System Administrator
+        caption: March 2017 - June 2023 · 6 yrs 4 mos
+        quote: >
+          Part-time · Vietnam
+        description: | # this will include new lines to allow paragraphs
+          Provided senior-level system administration services for lottery and totalizator systems.
+          
+          - Managed cloud infrastructure and networking systems
+          - Ensured high availability and reliability of critical systems
+          - Implemented automation and monitoring solutions
+          
+          **Key Technologies:** Linux, Bash, Cloud Infrastructure, Networking
+      
+      - layout: right
+        title: Wizeline
+        sub_title: DevOps Engineer
+        caption: December 2018 - April 2020 · 1 yr 5 mos
+        link: https://www.wizeline.com
+        quote: >
+          Ho Chi Minh City, Vietnam
+        description: | # this will include new lines to allow paragraphs
+          Responsible for server infrastructure and DevOps practices:
+          
+          - Managed and automated the application lifecycle: build, test, stage, and deploy
+          - Encouraged and implemented best practices across the organization
+          - Developed and implemented tools to improve application delivery
+          - Collaborated with engineering teams on architectural decisions
+          - Identified, solved, and prevented performance issues at IP Stack, Application, and OS levels
+          
+          **Key Technologies:** AWS, GCP, Kubernetes, Terraform, Ansible, Python, MySQL, Nginx, Git, GitOps
+      
+      - layout: right
+        title: ELCA Informatique SA / ELCA Informatik AG
+        sub_title: Senior DevOps Engineer
+        caption: February 2018 - December 2018 · 11 mos
+        link: https://www.elca.ch
+        quote: >
+          Vietnam
+        description: | # this will include new lines to allow paragraphs
+          Responsible for tools and processes enabling development teams to build and deploy highly scalable solutions:
+          
+          - Developed and maintained automation scripts for environment management
+          - Automated system deployment to scale infrastructure
+          - Collaborated with development, testing, deployment, and infrastructure teams
+          - Improved speed, efficiency, and scalability of all systems
+          
+          **Key Technologies:** AWS, Kubernetes, Terraform, Ansible, Puppet, Python, MongoDB, MySQL, Nagios
+      
+      - layout: right
+        title: TeamWork Corporate
+        sub_title: Senior System Administrator
+        caption: March 2015 - March 2017 · 2 yrs 1 mo
+        quote: >
+          Vietnam
+        description: | # this will include new lines to allow paragraphs
+          Managed customer IT infrastructure and operations:
+          
+          - Performed daily checks of customer IT infrastructure (servers, applications, databases, backups, monitoring)
+          - Troubleshot and resolved incidents and problems
+          - Handled customer changes and requests
+          
+          **Key Technologies:** Linux, Bash, VMware, Database Administration, Infrastructure Automation
+      
+      - layout: right
+        title: Swiss Post Solutions Vietnam Ltd.
+        sub_title: NOC Leader
+        caption: November 2010 - November 2014 · 4 yrs 1 mo
+        description: | # this will include new lines to allow paragraphs
+          Led the Network Operations Center team:
+          
+          - Managed IT operations and incident response
+          - Led and mentored team members
+          - Ensured 24/7 service availability
+          
+          **Key Technologies:** Linux, Bash, IT Operations, Networking, Team Management
+      
+      - layout: right
+        title: FPT Information System
+        sub_title: System Engineer
+        caption: July 2007 - November 2010 · 3 yrs 5 mos
+        description: | # this will include new lines to allow paragraphs
+          Provided system engineering services:
+          
+          - Managed IT operations and infrastructure
+          - Maintained Linux systems and networks
+          - Provided technical support and troubleshooting
+          
+          **Key Technologies:** Linux, IT Operations, Networking
+  
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+        title: Hanoi University of Science and Technology
+        sub_title: Bachelor of Science (BSc), Telecommunications Engineering
+        caption: 2002 - 2007
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Completed Bachelor's degree in Telecommunications Engineering, building a strong foundation 
+          in networking, telecommunications systems, and engineering principles that have supported 
+          a successful career in IT infrastructure and site reliability engineering.
+  
+  - title: Certifications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      **Kubernetes (Linux Foundation)**
+      - **CKS: Certified Kubernetes Security Specialist** (Dec 2021 - Dec 2023) - Credential: LF-0wjogck01a
+      - **CKA: Certified Kubernetes Administrator** (Sep 2020 - Sep 2023)
+      - **CKAD: Certified Kubernetes Application Developer** (Apr 2020 - Apr 2023)
+      
+      **Microsoft Azure**
+      - **Microsoft Certified: Azure Solutions Architect Expert** ⭐ (Nov 2020 - Nov 2024)
+      - **Microsoft Certified: Azure Data Fundamentals** ⭐ (Jan 2021 - Current)
+      - **Microsoft Certified: Azure Network Engineer Associate** (Oct 2022 - Oct 2023) - Credential: I447-5077
+      - **Microsoft Certified: Identity and Access Administrator Associate** (Nov 2022 - Nov 2023)
+      - **Microsoft Certified: Azure Security Engineer Associate** (Jan 2021 - Jan 2023) - Credential: H633-3482
+      - **Microsoft Certified: Azure Administrator Associate (AZ-104)** (Dec 2020 - Dec 2022) - Credential: H588-2007
+      - **Microsoft Certified: DevOps Engineer Expert** (Dec 2020 - Dec 2022)
+      
+      **Amazon Web Services (AWS)**
+      - **AWS Certified Solutions Architect - Associate** (Jan 2019 - Jan 2021) - Credential: 5KEZP6NC2NE4Q592
+      - **AWS Certified Developer - Associate** (Mar 2019 - Mar 2022) - Credential: KPW4V6NCDFQ4163S
+      
+      **Google Cloud Platform**
+      - **Google Cloud Certified Professional Cloud Architect** (Jun 2019 - Jun 2021) - Credential: fUuRhf
+      - **Google Cloud Certified Professional Cloud Developer** (Jul 2019 - Jul 2021) - Credential: CeQwBJ
+      - **Google Cloud Certified Associate Cloud Engineer** (May 2019 - May 2021) - Credential: poioYH
+      
+      **Infrastructure as Code & DevOps**
+      - **HashiCorp Certified: Terraform Associate (002)** ⭐ (Oct 2022 - Sep 2024)
+      
+      **Databases & NoSQL**
+      - **S101: ScyllaDB Essentials – Overview of ScyllaDB and NoSQL Basics** ⭐ (Feb 2025 - Current)
+      
+      **API Gateway & Networking**
+      - **Kong Gateway Operations** ⭐ (Mar 2023 - Current)
+      - **Kong Gateway Foundations** ⭐ (Mar 2023 - Current)
+      
+      **Virtualization**
+      - **VMware Certified Professional 6 – Data Center Virtualization** ⭐ (Jan 2017 - Current)
+      
+      **Legacy Microsoft Certifications**
+      - **MCTS: Windows Server 2008 Network Infrastructure, Configuration** (Sep 2010) - Credential: 44N1FD-1A5C6F
+      - **MCTS: Windows Server 2008 R2, Server Virtualization**
+      
+      *⭐ denotes currently active or recently obtained certifications*
+  
+  - title: Technical Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Cloud Platforms & Infrastructure**
+      - Amazon Web Services (AWS)
+      - Microsoft Azure
+      - Google Cloud Platform (GCP)
+      - Cloud Infrastructure Design & Management
+      
+      **DevOps & Automation**
+      - Kubernetes & Containerization
+      - Terraform & Infrastructure as Code
+      - Ansible, Puppet Configuration Management
+      - GitOps & CI/CD Pipelines
+      - DevSecOps
+      
+      **Programming & Scripting**
+      - Python
+      - Bash
+      - REST APIs
+      
+      **Databases**
+      - MySQL & Transact-SQL (T-SQL)
+      - MongoDB & NoSQL
+      - Database Administration
+      
+      **Monitoring & Observability**
+      - Nagios
+      - Time-series Databases
+      - Log Metrics & Cross-call Tracing
+      
+      **Web & Networking**
+      - Nginx
+      - Network Protocols
+      - System Architecture
+      - Networking
+      
+      **Operating Systems**
+      - Linux (Expert level)
+      - VMware Certified Professional
+      
+      **Core Competencies**
+      - Site Reliability Engineering
+      - Infrastructure Automation
+      - Incident Management
+      - Problem Solving
+      - Team Management & Mentorship
+      - Communication
 
 # Footer
 footer_show_references: true
@@ -117,7 +282,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -125,6 +290,7 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-remote-theme
 
 exclude : [
   "Gemfile",
