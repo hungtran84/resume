@@ -292,33 +292,68 @@ projects:
     link: "#"
     tagline: "Implemented security standards and compliance measures across global infrastructure."
 
-skills:
-  title: Skills &amp; Proficiency
+oss:
+  title: Technical Skills
+  intro: >
+    Core technologies and tools used across cloud infrastructure, DevOps, and site reliability engineering.
+  contributions:
+  - title: CI/CD
+    link: "#"
+    tagline: "GitHub Actions, Jenkins, TeamCity, AWS CodePipeline"
 
-  toolset:
-  - name: Kubernetes & Containerization
-    level: 95%
+  - title: GitOps
+    link: "#"
+    tagline: "ArgoCD, FluxCD"
 
-  - name: Cloud Platforms (AWS, Azure, GCP)
-    level: 90%
+  - title: Observability
+    link: "#"
+    tagline: "Datadog, AWS CloudWatch, Grafana, Prometheus, Loki"
 
-  - name: Terraform & Infrastructure as Code
-    level: 95%
+  - title: Container Orchestration
+    link: "#"
+    tagline: "Kubernetes, ECS, Docker Swarm"
 
-  - name: Python & Bash Scripting
-    level: 90%
+  - title: Infrastructure as Code
+    link: "#"
+    tagline: "Terraform, CloudFormation, Pulumi"
 
-  - name: Linux System Administration
-    level: 98%
+  - title: Configuration Management
+    link: "#"
+    tagline: "Ansible, Puppet, Chef"
 
-  - name: CI/CD & GitOps
-    level: 90%
+  - title: Cloud Platforms
+    link: "#"
+    tagline: "AWS, Azure, GCP"
 
-  - name: Monitoring & Observability
-    level: 85%
+  - title: RDBMS
+    link: "#"
+    tagline: "MS-SQL, PostgreSQL, MySQL"
 
-  - name: Database Administration (MySQL, MongoDB)
-    level: 80%
+  - title: NoSQL
+    link: "#"
+    tagline: "MongoDB, AWS DocumentDB, Cassandra, DynamoDB"
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  - title: In-Memory DB
+    link: "#"
+    tagline: "Redis, Memcached"
+
+  - title: Messaging
+    link: "#"
+    tagline: "Kafka, RabbitMQ, AWS SQS/SNS"
+
+  - title: API Gateway
+    link: "#"
+    tagline: "Kong, AWS API Gateway, NGINX"
+
+  - title: Networking
+    link: "#"
+    tagline: "VPC, Load Balancers, DNS, VPN, Service Mesh"
+
+  - title: Scripting
+    link: "#"
+    tagline: "Python, Bash, PowerShell"
+
+  - title: Linux System Administration
+    link: "#"
+    tagline: "RHEL, Ubuntu, Amazon Linux"
+
