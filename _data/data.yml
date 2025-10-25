@@ -16,23 +16,14 @@ sidebar:
   email: hungtran177@gmail.com
   phone: +84 902 563626
   timezone: Asia/Ho_Chi_Minh
-  citizenship:
   website: https://hungtran84.github.io/resume
   linkedin: hung-tran-ba6b0a89
-  xing:
   github: hungtran84
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky:
-  twitter:
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
+se provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  # Certifications
+  credly: https://www.credly.com/users/hung-tran.e7e29491/badges
 
   languages:
     title: Languages
@@ -52,14 +43,22 @@ sidebar:
 
     - item: DevOps & Automation
 
+    - item: Kubernetes Ecosystem & Training
+
+  certifications_profile:
+    title: Certifications
+    info:
+    - item: View my badges on Credly
+      link: https://www.credly.com/users/hung-tran.e7e29491/badges
+
 career-profile:
   title: Career Profile
   summary: |
-    Senior Site Reliability Engineer with 15+ years of experience in system administration, 
-    DevOps, and cloud infrastructure. Specialized in building and maintaining highly scalable, 
-    secure, and resilient systems. Expert in solving complex problems around scalability, 
-    security, deployability, and maintainability. Passionate about automation, infrastructure 
-    as code, and mentoring engineering teams to deliver robust solutions.
+    Experienced SRE, DevOps, and Cloud Solution Architect with 15+ years designing, building, and 
+    maintaining scalable, secure, and resilient systems across AWS, Azure, and GCP. Skilled in CI/CD, 
+    infrastructure as code, container orchestration, observability, and cloud-native architectures. 
+    Proven ability to solve complex technical challenges, lead engineering teams, and deliver highly 
+    available, maintainable, and deployable solutions across diverse technology stacks.
 
 education:
   title: Education
@@ -86,6 +85,43 @@ experiences:
         - **Mentorship**: Mentoring team members to learn, grow, and maintain high standards
       
       **Technologies**: AWS, Azure, Kubernetes, Terraform, Ansible/Puppet, MSSQL/MySQL, Service Mesh, GitOps, DevSecOps
+
+  - role: DevOps/Cloud Solution Architect (Freelancer)
+    time: September 2023 - Present
+    details: |
+      Designed and implemented complete cloud infrastructure for a mobile application backend built with Spring Boot microservices on AWS EKS.
+      
+      **Infrastructure Architecture:**
+        - Designed cloud infrastructure for Spring Boot microservices running on EKS
+        - Implemented Kafka for real-time chat messaging system
+        - Configured RDS PostgreSQL for main application database
+        - Set up AWS ElastiCache for high-performance caching layer
+        - Deployed AWS DocumentDB for chat data storage
+      
+      **Infrastructure as Code & Automation:**
+        - Managed all infrastructure using Terraform with modular design
+        - Implemented GitOps workflow with automatic Terraform apply on push events via GitHub Actions
+        - Designed multi-environment infrastructure (dev, staging, production)
+      
+      **Backend CI/CD Pipeline:**
+        - Built GitHub Actions pipeline for backend application CI/CD
+        - Automated build, test, and Docker image publishing workflow
+        - Implemented multi-platform Docker builds (AMD64 and ARM64) for cost optimization
+        - Automated ECR image publishing and versioning
+      
+      **GitOps & Application Deployment:**
+        - Deployed ArgoCD as GitOps operator for Kubernetes application management
+        - Managed application manifests including Deployments, Pods, ConfigMaps
+        - Integrated External Secrets Operator for secure secrets synchronization
+        - Implemented automated application deployment and rollback strategies
+      
+      **Mobile Application CI/CD:**
+        - Built GitHub Actions pipeline for mobile app (Android/iOS)
+        - Automated build, test, and package generation for both platforms
+        - Integrated AWS Device Farm for automated E2E testing with Appium Framework
+        - Automated deployment to TestFlight for iOS beta distribution
+      
+      **Technologies**: AWS EKS, Terraform, GitHub Actions, ArgoCD, Kafka, RDS PostgreSQL, ElastiCache, DocumentDB, External Secrets, SpringBoot, Docker, AWS Device Farm, Appium, TestFlight
 
   - role: Senior System Administrator (Part-time)
     time: March 2017 - June 2023
@@ -208,15 +244,6 @@ certifications:
     organization: Microsoft
 
   - name: Microsoft Certified - Azure Data Fundamentals
-    organization: Microsoft
-
-  - name: AZ-303 - Microsoft Azure Architect Technologies
-    organization: Microsoft
-
-  - name: AZ-304 - Microsoft Azure Architect Design
-    organization: Microsoft
-
-  - name: AZ-400 - Designing and Implementing Microsoft DevOps Solutions
     organization: Microsoft
 
   - name: Professional Cloud Architect Certification
