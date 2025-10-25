@@ -19,11 +19,7 @@ sidebar:
   website: https://hungtran84.github.io/resume
   linkedin: hung-tran-ba6b0a89
   github: hungtran84
-se provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
-
-  # Certifications
-  credly: https://www.credly.com/users/hung-tran.e7e29491/badges
 
   languages:
     title: Languages
@@ -44,12 +40,6 @@ se provide your LeetCode username.
     - item: DevOps & Automation
 
     - item: Kubernetes Ecosystem & Training
-
-  certifications_profile:
-    title: Certifications
-    info:
-    - item: View my badges on Credly
-      link: https://www.credly.com/users/hung-tran.e7e29491/badges
 
 career-profile:
   title: Career Profile
