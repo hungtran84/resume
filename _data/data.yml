@@ -47,13 +47,10 @@ sidebar:
     title: Interests
     info:
     - item: Site Reliability Engineering
-      link:
 
     - item: Cloud Infrastructure
-      link:
 
     - item: DevOps & Automation
-      link:
 
 career-profile:
   title: Career Profile
@@ -169,100 +166,88 @@ certifications:
   title: Certifications
   list:
   - name: CKS - Certified Kubernetes Security Specialist
-    start: 2021
-    end: 2023
     organization: The Linux Foundation
-    credentialid: LF-0wjogck01a
-    credentialurl:
-    credentialname:
 
   - name: CKA - Certified Kubernetes Administrator
-    start: 2020
-    end: 2023
     organization: The Linux Foundation
-    credentialid:
-    credentialurl:
-    credentialname:
 
   - name: CKAD - Certified Kubernetes Application Developer
-    start: 2020
-    end: 2023
     organization: The Linux Foundation
-    credentialid:
-    credentialurl:
-    credentialname:
 
   - name: KCNA - Kubernetes and Cloud Native Associate
-    start: 2024
-    end:
     organization: The Linux Foundation
-    credentialid:
-    credentialurl:
-    credentialname:
 
   - name: KCSA - Kubernetes and Cloud Native Security Associate
-    start: 2024
-    end:
     organization: The Linux Foundation
-    credentialid:
-    credentialurl:
-    credentialname:
+
+  - name: AWS Certified Solutions Architect – Associate
+    organization: Amazon Web Services
+
+  - name: AWS Certified Developer – Associate
+    organization: Amazon Web Services
+
+  - name: AWS Knowledge - Amazon EKS Training Badge
+    organization: Amazon Web Services
 
   - name: Microsoft Certified - Azure Solutions Architect Expert
-    start: 2020
-    end: 2024
     organization: Microsoft
-    credentialid:
-    credentialurl:
-    credentialname:
+
+  - name: Microsoft Certified - DevOps Engineer Expert
+    organization: Microsoft
+
+  - name: Microsoft Certified - Azure Network Engineer Associate
+    organization: Microsoft
+
+  - name: Microsoft Certified - Azure Security Engineer Associate
+    organization: Microsoft
+
+  - name: Microsoft Certified - Azure Administrator Associate
+    organization: Microsoft
+
+  - name: Microsoft Certified - Identity and Access Administrator Associate
+    organization: Microsoft
 
   - name: Microsoft Certified - Azure Data Fundamentals
-    start: 2021
-    end:
     organization: Microsoft
-    credentialid:
-    credentialurl: https://learn.microsoft.com/en-us/users/hungtran-1826/credentials/b1137546a084052d
-    credentialname:
+
+  - name: AZ-303 - Microsoft Azure Architect Technologies
+    organization: Microsoft
+
+  - name: AZ-304 - Microsoft Azure Architect Design
+    organization: Microsoft
+
+  - name: AZ-400 - Designing and Implementing Microsoft DevOps Solutions
+    organization: Microsoft
+
+  - name: Professional Cloud Architect Certification
+    organization: Google Cloud
+
+  - name: Professional Cloud Developer Certification
+    organization: Google Cloud
+
+  - name: Associate Cloud Engineer Certification
+    organization: Google Cloud
 
   - name: HashiCorp Certified - Terraform Associate (002)
-    start: 2022
-    end: 2024
     organization: HashiCorp
-    credentialid:
-    credentialurl:
-    credentialname:
 
   - name: VMware Certified Professional 6 – Data Center Virtualization
-    start: 2017
-    end:
     organization: VMware
-    credentialid:
-    credentialurl:
-    credentialname:
 
   - name: Kong Gateway Operations
-    start: 2023
-    end:
-    organization: Kong Inc.
-    credentialid:
-    credentialurl:
-    credentialname:
+    organization: Kong
 
   - name: Kong Gateway Foundations
-    start: 2023
-    end:
-    organization: Kong Inc.
-    credentialid:
-    credentialurl:
-    credentialname:
+    organization: Kong
 
-  - name: ScyllaDB Essentials – Overview of ScyllaDB and NoSQL Basics
-    start: 2025
-    end:
-    organization: ScyllaDB
-    credentialid:
-    credentialurl:
-    credentialname:
+  - name: Fundamentals for Envoy by Solo.io
+    organization: Solo.io
+
+  - name: Fundamentals for Istio by Solo.io
+    organization: Solo.io
+
+  - name: GitOps Fundamentals
+    organization: Codefresh
 
 oss:
   title: Technical Skills
@@ -270,62 +255,47 @@ oss:
     Core technologies and tools used across cloud infrastructure, DevOps, and Site Reliability Engineering.
   contributions:
   - title: CI/CD
-    link: "#"
     tagline: "GitHub Actions, Jenkins, TeamCity, AWS CodePipeline"
 
   - title: GitOps
-    link: "#"
     tagline: "ArgoCD"
 
   - title: Observability
-    link: "#"
     tagline: "Datadog, AWS CloudWatch, Grafana, Prometheus, Loki"
 
   - title: Container Orchestration
-    link: "#"
     tagline: "Kubernetes, ECS, Docker Swarm"
 
   - title: Infrastructure as Code
-    link: "#"
     tagline: "Terraform, CloudFormation, Pulumi"
 
   - title: Configuration Management
-    link: "#"
     tagline: "Ansible, Puppet, Chef, SaltStack"
 
   - title: Cloud Platforms
-    link: "#"
     tagline: "AWS, Azure, GCP"
 
   - title: RDBMS
-    link: "#"
     tagline: "MSSQL, PostgreSQL, MySQL"
 
   - title: NoSQL
-    link: "#"
     tagline: "MongoDB, AWS DocumentDB, Cassandra, DynamoDB"
 
   - title: In-Memory DB
-    link: "#"
     tagline: "Redis, Memcached"
 
   - title: Messaging
-    link: "#"
     tagline: "Kafka, AWS SQS/SNS"
 
   - title: API Gateway
-    link: "#"
     tagline: "NGINX, Kong, Istio/Envoy"
 
   - title: Networking
-    link: "#"
     tagline: "VPC, Load Balancers, DNS, VPN, Service Mesh"
 
   - title: Scripting
-    link: "#"
     tagline: "Python, Bash, PowerShell"
 
   - title: Linux/Unix System Administration
-    link: "#"
     tagline: "RHEL/CentOS, Ubuntu, IBM AIX, HP-UX"
 
