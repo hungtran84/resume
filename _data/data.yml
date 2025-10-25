@@ -70,10 +70,7 @@ education:
   - degree: BSc in Telecommunications Engineering
     university: Hanoi University of Science and Technology
     time: 2002 - 2007
-    details: |
-      Completed Bachelor's degree in Telecommunications Engineering, building a strong foundation 
-      in networking, telecommunications systems, and engineering principles that have supported 
-      a successful career in IT infrastructure and site reliability engineering.
+
 
 experiences:
   title: Experience
@@ -91,7 +88,7 @@ experiences:
         - **Engagement**: Consulting with engineering teams to design flexible, resilient, and operationally efficient services
         - **Mentorship**: Mentoring team members to learn, grow, and maintain high standards
       
-      **Technologies**: AWS, Azure, Kubernetes, Terraform, Ansible, Python, Bash, MongoDB, MySQL, Nginx, Nagios, GitOps, DevSecOps
+      **Technologies**: AWS, Azure, Kubernetes, Terraform, Ansible/Puppet, MSSQL/MySQL, Service Mesh, GitOps, DevSecOps
 
   - role: Senior System Administrator (Part-time)
     time: March 2017 - June 2023
@@ -117,7 +114,7 @@ experiences:
         - Collaborated with engineering teams on architectural decisions
         - Identified, solved, and prevented performance issues at IP Stack, Application, and OS levels
       
-      **Technologies**: AWS, GCP, Kubernetes, Terraform, Ansible, Python, MySQL, Nginx, Git, GitOps
+      **Technologies**: AWS/GCP, Kubernetes, Terraform, MySQL, GitOps
 
   - role: Senior DevOps Engineer
     time: February 2018 - December 2018
@@ -130,7 +127,7 @@ experiences:
         - Collaborated with development, testing, deployment, and infrastructure teams
         - Improved speed, efficiency, and scalability of all systems
       
-      **Technologies**: AWS, Kubernetes, Terraform, Ansible, Puppet, Python, MongoDB, MySQL, Nagios
+      **Technologies**: AWS, Kubernetes, Terraform, Ansible, Puppet, Python, Nagios, Oracle DB
 
   - role: Senior System Administrator
     time: March 2015 - March 2017
@@ -171,76 +168,6 @@ experiences:
 certifications:
   title: Certifications
   list:
-  - name: ScyllaDB Essentials – Overview of ScyllaDB and NoSQL Basics
-    start: 2025
-    end:
-    organization: ScyllaDB
-    credentialid:
-    credentialurl:
-    credentialname:
-    details: |
-      Current certification in ScyllaDB and NoSQL database fundamentals.
-
-  - name: Kong Gateway Operations
-    start: 2023
-    end:
-    organization: Kong Inc.
-    credentialid:
-    credentialurl:
-    credentialname:
-    details: |
-      Certification in Kong Gateway operations and REST APIs.
-
-  - name: Kong Gateway Foundations
-    start: 2023
-    end:
-    organization: Kong Inc.
-    credentialid:
-    credentialurl:
-    credentialname:
-    details: |
-      Foundational certification in Kong Gateway and REST APIs.
-
-  - name: Microsoft Certified - Azure Data Fundamentals
-    start: 2021
-    end:
-    organization: Microsoft
-    credentialid:
-    credentialurl:
-    credentialname:
-    details: |
-      Current Microsoft Azure Data Fundamentals certification.
-
-  - name: VMware Certified Professional 6 – Data Center Virtualization
-    start: 2017
-    end:
-    organization: VMware
-    credentialid:
-    credentialurl:
-    credentialname:
-    details: |
-      Current VMware VCP6-DCV certification.
-
-  - name: Microsoft Certified - Azure Solutions Architect Expert
-    start: 2020
-    end: 2024
-    organization: Microsoft
-    credentialid:
-    credentialurl:
-    credentialname:
-    details: |
-      Azure Solutions Architect Expert certification covering T-SQL, Kubernetes, REST APIs, and Microsoft Azure.
-
-  - name: HashiCorp Certified - Terraform Associate (002)
-    start: 2022
-    end: 2024
-    organization: HashiCorp
-    credentialid:
-    credentialurl:
-    credentialname:
-    details: |
-      Terraform and Infrastructure as Code certification.
-
   - name: CKS - Certified Kubernetes Security Specialist
     start: 2021
     end: 2023
@@ -248,8 +175,6 @@ certifications:
     credentialid: LF-0wjogck01a
     credentialurl:
     credentialname:
-    details: |
-      Kubernetes security specialist certification.
 
   - name: CKA - Certified Kubernetes Administrator
     start: 2020
@@ -258,8 +183,6 @@ certifications:
     credentialid:
     credentialurl:
     credentialname:
-    details: |
-      Certified Kubernetes Administrator.
 
   - name: CKAD - Certified Kubernetes Application Developer
     start: 2020
@@ -268,34 +191,83 @@ certifications:
     credentialid:
     credentialurl:
     credentialname:
-    details: |
-      Certified Kubernetes Application Developer.
 
-projects:
-  title: Key Achievements
-  intro: >
-    Major infrastructure and reliability projects delivered throughout my career.
-  assignments:
-  - title: Petabyte-Scale Storage Infrastructure
-    link: "#"
-    tagline: "Architected and implemented automated scaling solutions for 20+ PB video storage system at Axon."
+  - name: KCNA - Kubernetes and Cloud Native Associate
+    start: 2024
+    end:
+    organization: The Linux Foundation
+    credentialid:
+    credentialurl:
+    credentialname:
 
-  - title: Zero-Downtime Deployment Platform
-    link: "#"
-    tagline: "Built continuous deployment platform enabling global deployments with zero downtime."
+  - name: KCSA - Kubernetes and Cloud Native Security Associate
+    start: 2024
+    end:
+    organization: The Linux Foundation
+    credentialid:
+    credentialurl:
+    credentialname:
 
-  - title: Multi-Cloud Infrastructure
-    link: "#"
-    tagline: "Designed and managed infrastructure across AWS, Azure, and GCP platforms."
+  - name: Microsoft Certified - Azure Solutions Architect Expert
+    start: 2020
+    end: 2024
+    organization: Microsoft
+    credentialid:
+    credentialurl:
+    credentialname:
 
-  - title: Security Compliance Implementation
-    link: "#"
-    tagline: "Implemented security standards and compliance measures across global infrastructure."
+  - name: Microsoft Certified - Azure Data Fundamentals
+    start: 2021
+    end:
+    organization: Microsoft
+    credentialid:
+    credentialurl: https://learn.microsoft.com/en-us/users/hungtran-1826/credentials/b1137546a084052d
+    credentialname:
+
+  - name: HashiCorp Certified - Terraform Associate (002)
+    start: 2022
+    end: 2024
+    organization: HashiCorp
+    credentialid:
+    credentialurl:
+    credentialname:
+
+  - name: VMware Certified Professional 6 – Data Center Virtualization
+    start: 2017
+    end:
+    organization: VMware
+    credentialid:
+    credentialurl:
+    credentialname:
+
+  - name: Kong Gateway Operations
+    start: 2023
+    end:
+    organization: Kong Inc.
+    credentialid:
+    credentialurl:
+    credentialname:
+
+  - name: Kong Gateway Foundations
+    start: 2023
+    end:
+    organization: Kong Inc.
+    credentialid:
+    credentialurl:
+    credentialname:
+
+  - name: ScyllaDB Essentials – Overview of ScyllaDB and NoSQL Basics
+    start: 2025
+    end:
+    organization: ScyllaDB
+    credentialid:
+    credentialurl:
+    credentialname:
 
 oss:
   title: Technical Skills
   intro: >
-    Core technologies and tools used across cloud infrastructure, DevOps, and site reliability engineering.
+    Core technologies and tools used across cloud infrastructure, DevOps, and Site Reliability Engineering.
   contributions:
   - title: CI/CD
     link: "#"
@@ -303,7 +275,7 @@ oss:
 
   - title: GitOps
     link: "#"
-    tagline: "ArgoCD, FluxCD"
+    tagline: "ArgoCD"
 
   - title: Observability
     link: "#"
@@ -319,7 +291,7 @@ oss:
 
   - title: Configuration Management
     link: "#"
-    tagline: "Ansible, Puppet, Chef"
+    tagline: "Ansible, Puppet, Chef, SaltStack"
 
   - title: Cloud Platforms
     link: "#"
@@ -327,7 +299,7 @@ oss:
 
   - title: RDBMS
     link: "#"
-    tagline: "MS-SQL, PostgreSQL, MySQL"
+    tagline: "MSSQL, PostgreSQL, MySQL"
 
   - title: NoSQL
     link: "#"
@@ -339,11 +311,11 @@ oss:
 
   - title: Messaging
     link: "#"
-    tagline: "Kafka, RabbitMQ, AWS SQS/SNS"
+    tagline: "Kafka, AWS SQS/SNS"
 
   - title: API Gateway
     link: "#"
-    tagline: "Kong, AWS API Gateway, NGINX"
+    tagline: "NGINX, Kong, Istio/Envoy"
 
   - title: Networking
     link: "#"
@@ -353,7 +325,7 @@ oss:
     link: "#"
     tagline: "Python, Bash, PowerShell"
 
-  - title: Linux System Administration
+  - title: Linux/Unix System Administration
     link: "#"
-    tagline: "RHEL, Ubuntu, Amazon Linux"
+    tagline: "RHEL/CentOS, Ubuntu, IBM AIX, HP-UX"
 
